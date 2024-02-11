@@ -3,14 +3,11 @@
     background-color: rgb(255, 241, 159);
     width: 35%;
     height: 100%;
-    border: 5px;
-
 }
 
 .imagen {
-    border: 5px solid white;
-    border-radius: 50%;
-    width: 55%; /* Ajusta al 100% para ocupar todo el ancho de .izquierda */
+    border: 5px solid rgb(0, 0, 0);
+    width: 50%; /* Ajusta al 100% para ocupar todo el ancho de .izquierda */
     height: 100%; /* Ajusta la altura automáticamente para mantener la proporción */
     display: block; /* Asegura que la imagen sea tratada como un bloque */
     margin: 0 auto; /* Centra la imagen horizontalmente */
@@ -30,33 +27,17 @@
     margin: 20px;
     text-align: justify;
 }
-.datos{
+
+
+.campos{
     width: 100%;
-    height: 200px;
+    height: 30px;
+
+    align-items: center;
+    justify-content: center;
     display: flex;
-    flex-direction: row;
 }
 
-.iconos{
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    flex:20%;
-    background-color: aqua;
+.icono, .clave, .valor{
+    margin-right: 20px;
 }
-.campos{
-    flex: 40%;
-    background-color: blue;
-}
-.info{
-    flex: 40%;
-    background-color: blueviolet;
-}
-.icono{
-    margin: 5px;
-    font-size: 24px; /* Puedes ajustar el tamaño según tus necesidades */
-  }
-  .icono-pequeño{
-    margin: 5px;
-    font-size: 28px; /* Puedes ajustar el tamaño según tus necesidades */
-  }
